@@ -19,7 +19,7 @@ STD ID:1301195595
 
 ---
 
-[Github](https://)
+[Github](https://github.com/Moudyash/preprocessing_and_visualization)
 """
 
 # Commented out IPython magic to ensure Python compatibility.
@@ -34,7 +34,7 @@ from pandas.plotting import scatter_matrix
 
 """   # *** Preprocessing  Section***:"""
 
-data=pd.read_csv('University_data.csv',na_values=['?','UNDEFIND'])
+data=pd.read_csv('C:\Users\Medo\Desktop\preprocessing_and_visualization\University_data.csv',na_values=['?','UNDEFIND'])
 data
 
 data.info()
